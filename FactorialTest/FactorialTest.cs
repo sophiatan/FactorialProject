@@ -64,7 +64,7 @@ namespace FactorialTest
             //exercise
             try
             {
-                long result = f.GetFactorial(24);
+                long result = f.GetFactorial(-1);
                 Assert.Fail();
                 Console.WriteLine("{0}! = {1}", 24, result);
             }
